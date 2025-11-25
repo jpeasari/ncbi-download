@@ -1,12 +1,11 @@
 #!/usr/bin/bash
 
 # Output directory
-OUTDIR="refseq_vv"
+OUTDIR="refseq"
 
 # Create output directory if it doesn't exist
 mkdir -p "$OUTDIR"
 
-species_vv=("Vibrio vulnificus")
 # List of species
 species_list=(
     "Vibrio vulnificus"
@@ -53,7 +52,7 @@ species_list=(
 
 
 # Loop through each species
-for species in "${species_vv[@]}"
+for species in "${species_list[@]}"
 do
     echo "🔽 Downloading: $species"
     ncbi-genome-download bacteria \
