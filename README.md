@@ -7,6 +7,6 @@ You can install the `ncbi-genome-download` tool from Bioconda using the followin
 
 ```bash
 conda install bioconda::ncbi-genome-download
-
-## Verify the installation:
+```
+### Verify the installation:
 
